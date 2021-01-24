@@ -7,7 +7,8 @@
 }
 
 .login > img {
-  height: 200px;
+  max-height: 200px;
+  width: auto;
 }
 
 .login > a {
@@ -17,4 +18,11 @@
   border-radius: 99px;
   font-weight: 800;
   background-color: #1db954;
+}
+
+@media only screen and (max-width: 500px) {
+  .login > img {
+    max-height: 100px;
+    width: auto;
+  }
 }
